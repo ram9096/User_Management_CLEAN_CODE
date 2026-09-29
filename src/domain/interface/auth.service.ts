@@ -1,6 +1,6 @@
-import { IResponse } from "../dto/response.dto";
-import { ILoginDto, IUserDto } from "../dto/user.dto";
-import { User } from "../entities/user.entity";
+import { IResponse } from "../dto/response.dto.js";
+import { ILoginDto, IUserDto } from "../dto/user.dto.js";
+import { User } from "../entities/user.entity.js";
 
 export interface IAuthService {
 

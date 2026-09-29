@@ -1,7 +1,7 @@
 
 
 import mongoose, { Schema } from "mongoose";
-import { User } from "../../../domain/entities/user.entity";
+import { User } from "../../../domain/entities/user.entity.js";
 
 const user_schema = new Schema<User>({
     name:{

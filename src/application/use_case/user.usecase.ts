@@ -1,8 +1,8 @@
-import { IResponse } from "../../domain/dto/response.dto";
-import { IUserDto } from "../../domain/dto/user.dto";
-import { User } from "../../domain/entities/user.entity";
-import { IUserRepository } from "../../domain/interface/user.repository";
-import { IUserService } from "../../domain/interface/user.service";
+import { IResponse } from "../../domain/dto/response.dto.js";
+import { IUserDto } from "../../domain/dto/user.dto.js";
+import { User } from "../../domain/entities/user.entity.js";
+import { IUserRepository } from "../../domain/interface/user.repository.js";
+import { IUserService } from "../../domain/interface/user.service.js";
 import bcrypt from "bcrypt";
 
 export class UserService implements IUserService {
